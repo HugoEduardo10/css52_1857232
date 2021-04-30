@@ -53,3 +53,15 @@ header img {
     width: 100%;
 }
 
+
+/* Estilos para el main */
+
+main h1 {
+    padding: auto;
+    text-align: center;
+}
+
+main h2 {
+    padding: auto;
+    text-align: center;
+}
