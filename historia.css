@@ -142,3 +142,42 @@ aside a {
 }
 
 
+/* Estilos para el main */
+
+#imagenhistoria {
+    float: right;
+    width: 28%;
+    padding-right: .7%;
+    padding-left: .7%;
+} 
+
+main h1 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
+}
+
+#p1 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+}
+
+#p2 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+}
+
+main h2 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
+}
+
+article #video {
+    padding-left: .5em;
+    height: 50%;
+    float: right;
+    width: 370px;
+    box-sizing: border-box;
+
+}
