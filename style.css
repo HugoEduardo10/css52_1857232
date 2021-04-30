@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo para el Header */
+
+
+/* Layout del sitio */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: .7em;
+    grid-template-areas:  "header header"
+                            "aside main"
+                            "pie pie";
+}
+
+main img {
+    width: 30%;
+    float: right;
+}
+
+header {
+    background-color: rgba(0, 0, 255, 0.878);
+    grid-area: header;
+    width: 100%;
+    /* grid-column: 1 / -1; */
+}
+
+aside {
+    background-color: lightblue;
+    grid-area: aside;
+}
+
+footer {
+    background-color: lightskyblue;
+    grid-area: pie;
+    /* grid-column: 1 / -1; */
+}
+
+
+main {
+    grid-area: main;
+    background-color: #e6dd3b;
+}
+
+/* Estilos para el Header */
+header img {
+    width: 100%;
+}
+
