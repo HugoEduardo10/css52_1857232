@@ -142,3 +142,49 @@ address {
     color: white;
     font-size: 1em;
 }
+
+/* Estilos para el aside */
+
+aside h1 {
+    text-align: center;
+    padding-bottom: .1em;
+    padding-top: 1em;
+    list-style-type: none;
+    flex-grow: 1;
+    color: blue;
+}
+
+
+#tienda {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#estadisticas {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#femenil {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#afirme {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#adidas {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+aside a {
+    text-decoration: none;
+}
