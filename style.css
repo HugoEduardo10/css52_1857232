@@ -20,8 +20,9 @@ body {
 }
 
 main img {
-    width: 30%;
+    width: 25%;
     float: right;
+    padding-right: .7em;
 }
 
 header {
@@ -37,7 +38,7 @@ aside {
 }
 
 footer {
-    background-color: lightskyblue;
+    background-color: blue;
     grid-area: pie;
     /* grid-column: 1 / -1; */
 }
@@ -53,15 +54,57 @@ header img {
     width: 100%;
 }
 
+/* * Estilos para la barra de navegacion */ 
+
+#main-menu {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+    background-color: blue;
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 35px;
+}
+
+#main-menu li:hover{
+    background-color: yellow;
+}
+
+#main-menu li {
+    flex-grow: 1;
+    padding: 0.3em 0;
+}
+
+
+#main-menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
 
 /* Estilos para el main */
 
 main h1 {
-    padding: auto;
+    padding-top: .7em;
+    padding-bottom: .3em;
     text-align: center;
 }
 
 main h2 {
-    padding: auto;
+    padding-top: .7em;
+    padding-bottom: .3em;
     text-align: center;
+}
+
+main p {
+    padding-top: .7em;
+    padding-bottom: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
