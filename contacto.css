@@ -95,28 +95,10 @@ main h1 {
     padding-top: .5em;
     padding-bottom: .3em;
     text-align: center;
-    background-color:yellow;
-    color: blue;
-}
-
-main h2 {
-    padding-top: .5em;
-    padding-bottom: .3em;
-    text-align: center;
     background-color:blue;
-    color:yellow;
+    color: yellow;
+    font-size: 1.2em;
 }
-
-
-main table {
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    width: 70%;
-    border-width: 70%;
-    float: left;
-}
-
 
 main img {
     float: right;
@@ -125,11 +107,29 @@ main img {
     padding-top: 1em;
 }   
 
-main p {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
+fieldset {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    width: 68%;
+}
+
+legend {
+    padding-top: 1em;
+    color: blue;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid blue;
+    width: 70%;
+}
+
+div {
+    padding-top: 1em;
+    padding-bottom: 1em
+
 }
 
 /* Estilos para el Footer */
