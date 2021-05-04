@@ -95,28 +95,36 @@ main h1 {
     padding-top: .5em;
     padding-bottom: .3em;
     text-align: center;
-    background-color:yellow;
-    color: blue;
-}
-
-main h2 {
-    padding-top: .5em;
-    padding-bottom: .3em;
-    text-align: center;
     background-color:blue;
     color:yellow;
 }
 
-
-main table {
+main #pp {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
     align-content: center;
     align-items: center;
+    width: 100%;
+}
+
+main h2,h3 {
+    padding-top: .5em;
+    padding-bottom: .3em;
     text-align: center;
     width: 70%;
     border-width: 70%;
-    float: left;
+    color: blue;
 }
 
+main h4, h5, h6 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
+    width: 100%;
+    border-width: 100%;
+    color: blue;
+}
 
 main img {
     float: right;
@@ -130,7 +138,36 @@ main p {
     padding-bottom: .5em;
     padding-left: .5em;
     padding-right: .5em;
+    width: 70%;
+    border-width: 70%;
 }
+
+main #p1 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 100%;
+    border-width: 100%;
+}
+
+
+main #p4, #p5, #p6 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 100%;
+    border-width: 100%;
+}
+
+main #emoji {  
+    flex-wrap: wrap;
+    float: right;
+    box-sizing: border-box;
+}
+
+
 
 /* Estilos para el Footer */
 
