@@ -95,12 +95,16 @@ main h1 {
     padding-top: .5em;
     padding-bottom: .3em;
     text-align: center;
+    background-color: blue;
+    color: yellow;
 }
 
 main h2 {
     padding-top: .5em;
     padding-bottom: .3em;
     text-align: center;
+    background-color: yellow;
+    color: blue;
 }
 
 main p {
