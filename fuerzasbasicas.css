@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo para el Header */
+
+
+/* Layout del sitio */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: .7em;
+    grid-template-areas:  "header header"
+                            "aside main"
+                            "pie pie";
+}
+
+main img {
+    width: 27%;
+    float: right;
+    padding-right: .7em;
+    padding-left: .3em;
+}
+
+header {
+    background-color: rgba(0, 0, 255, 0.878);
+    grid-area: header;
+    width: 100%;
+    /* grid-column: 1 / -1; */
+}
+
+aside {
+    background-color: lightblue;
+    grid-area: aside;
+}
+
+footer {
+    background-color: blue;
+    grid-area: pie;
+    /* grid-column: 1 / -1; */
+}
+
+
+main {
+    grid-area: main;
+    background-color: #e6dd3b;
+}
+
+/* Estilos para el Header */
+header img {
+    width: 100%;
+}
+
+/* * Estilos para la barra de navegacion */ 
+
+#main-menu {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+    background-color: blue;
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 35px;
+}
+
+#main-menu li:hover{
+    background-color: yellow;
+}
+
+#main-menu li {
+    flex-grow: 1;
+    padding: 0.3em 0;
+}
+
+
+#main-menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+/* Estilos para el main */
+
+main h1 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
+    background-color:yellow;
+    color: blue;
+}
+
+main h2 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    text-align: center;
+    background-color:blue;
+    color:yellow;
+}
+
+
+main table {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    border-width: 70%;
+    float: left;
+}
+
+
+main img {
+    float: right;
+    width: 30%;
+    border-width: 30%;
+    padding-top: 1em;
+}   
+
+main p {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+/* Estilos para el Footer */
+
+address {
+    color: white;
+    font-size: 1em;
+}
+
+/* Estilos para el aside */
+
+aside h1 {
+    text-align: center;
+    padding-bottom: .1em;
+    padding-top: 1em;
+    list-style-type: none;
+    flex-grow: 1;
+    color: blue;
+}
+
+
+#tienda {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#estadisticas {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#femenil {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#afirme {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#adidas {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+aside a {
+    text-decoration: none;
+}
