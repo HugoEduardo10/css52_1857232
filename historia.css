@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /* Estilo para el Header */
 
 
@@ -19,12 +18,7 @@ body {
                             "pie pie";
 }
 
-main img {
-    width: 27%;
-    float: right;
-    padding-right: .7em;
-    padding-left: .3em;
-}
+
 
 header {
     background-color: rgba(0, 0, 255, 0.878);
@@ -53,6 +47,7 @@ main {
 /* Estilos para el Header */
 header img {
     width: 100%;
+    
 }
 
 /* * Estilos para la barra de navegacion */ 
@@ -97,6 +92,7 @@ address {
 
 /* Estilos para el aside */
 
+
 aside h1 {
     text-align: center;
     padding-bottom: .1em;
@@ -105,7 +101,6 @@ aside h1 {
     flex-grow: 1;
     color: blue;
 }
-
 
 #tienda {
     text-align: center;
@@ -146,38 +141,57 @@ aside a {
 
 #imagenhistoria {
     float: right;
-    width: 28%;
-    padding-right: .7%;
-    padding-left: .7%;
+    width: 25%;
+    height: 25%;
+    border: 1px solid orange;
 } 
 
 main h1 {
     padding-top: .5em;
     padding-bottom: .3em;
     text-align: center;
+    color: yellow;
+    background-color: blue;
 }
 
-#p1 {
-    padding-top: .5em;
-    padding-bottom: .3em;
+#p1 {    
+    width: 100%;
+    border-width: 100%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #p2 {
-    padding-top: .5em;
-    padding-bottom: .3em;
+    width: 100%;
+    border-width: 100%;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+
+#p3 {
+    width: 100%;
+    border-width: 100%;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 
 main h2 {
-    padding-top: .5em;
-    padding-bottom: .3em;
+    padding-top: 1em;
+
     text-align: center;
+    color: blue;
 }
 
 article #video {
-    padding-left: .5em;
-    height: 50%;
-    float: right;
-    width: 370px;
-    box-sizing: border-box;
+    width: 90%;
+    height: 15em;
+    padding-top: 1em;
+    padding-left: 4.5em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
 
 }
